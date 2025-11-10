@@ -1,0 +1,37 @@
+What is Vagrant?
+Vagrant is a tool used to create and manage virtual machines easily for development.
+    
+Think of it this way:
+VirtualBox creates the virtual computer.
+Vagrant controls it using simple commands.
+
+Vagrant uses a Vagrantfile to define how the virtual machine should be set up. This makes it easy to recreate the same environment on any system.
+
+Why Developers Use Vagrant
+
+Same environment works on every machine
+Easy to start and destroy virtual machines
+Setup is quick and repeatable
+Keeps main system clean and conflict-free
+
+Basic Workflow
+Step	Action	Command
+1	Create a project folder	(make folder manually)
+2	Initialize Vagrant	vagrant init <box-name>
+3	Start the virtual machine	vagrant up
+4	Log into the VM	vagrant ssh
+5	Return to your system	exit
+6	Stop the VM	vagrant halt
+7	Delete the VM	vagrant destroy
+Basic Vagrant Commands
+Command	Description
+vagrant init <box-name>	Creates a Vagrantfile (example box: hashicorp/bionic64)
+vagrant up	Starts the VM
+vagrant ssh	Opens VM terminal
+exit	Leaves VM terminal
+vagrant halt	Stops the VM
+vagrant destroy	Deletes the VM completely
+vagrant status	Shows the state of the VM
+vagrant global-status	Shows all Vagrant VMs on your system
+vagrant global-status --prune	Removes old or dead VM entries from list
+vagrant reload	Restarts VM after configuration changes
