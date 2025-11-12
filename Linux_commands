@@ -1,0 +1,28 @@
+## 🐚 Linux Shell Commands
+
+| Command        | Description                                                                 |
+|----------------|------------------------------------------------------------------------------|
+| `pwd`          | Print the current working directory (shows where you are).                   |
+| `cd`           | Change directory.                                                            |
+| `ls`           | List files and directories.                                                  |
+| `rm`           | Remove files (use `rm -r` for directories). ⚠️ Be careful!                   |
+| `cp`           | Copy files or directories.                                                   |
+| `mv`           | Move or rename files/directories.                                            |
+| `mkdir`        | Create a new directory.                                                      |
+| `{num1..num2}` | Brace expansion — creates a range of numbers (e.g., `mkdir folder{1..5}`).   |
+| `*.txt`        | Wildcard — matches all `.txt` files in a directory.                          |
+
+
+## ✍️ Vim Basics
+
+| Command       | Description                                                                 |
+|----------------|------------------------------------------------------------------------------|
+| `yy`          | Yank (copy) a line.                                                          |
+| `p`           | Paste after the cursor.                                                      |
+| `gg`          | Go to the top of the file.                                                   |
+| `G`           | Go to the bottom of the file.                                                |
+| `dd`          | Delete (cut) a line.                                                         |
+| `numberyy`    | Copy that many lines (e.g., `3yy` copies 3 lines).                           |
+| `numberdd`    | Delete that many lines (e.g., `5dd` deletes 5 lines).                        |
+| `/text`       | Search for the word “text” in the file.                                      |
+| `n` / `N`     | Jump to the next / previous search match.                                    |
